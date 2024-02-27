@@ -13,6 +13,7 @@ import {
     mssql,
     resumeia,
     smartcampus,
+    backend,
     linkedin,
     github,
     ctic,
@@ -102,6 +103,11 @@ const projects = [
         name: "Smart Campus",
         image: smartcampus,
         tech: ["React", "CSS", "Docker", "React Leaflet"]
+    },
+    {
+        name: "Backend",
+        image: backend,
+        tech: ["Node", "JavaScript", "Express", "MongoDB"]
     },
 ]
 

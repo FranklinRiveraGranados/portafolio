@@ -60,6 +60,31 @@ export default function Projects(){
 
                 </div>
             </div>
+            <div className="project">
+                <div className="project-left div1">
+                    <span className="projects-title">Backend</span>
+                    <span className="projects-subtitle">CRUD</span>
+                    <p>
+                        CRUD es una aplicación que permite registrar, eliminar, actualizar y editar datos de usuarios y notas.
+                    </p>
+
+                    <div className="project-tech">
+                        {
+                            projects[2].tech.map((p, i) => {
+                                return(
+                                    <div key={i}>
+                                        {p}
+                                    </div>
+                                )
+                            })
+                        }
+                    </div>
+
+                </div>
+                <div className="project-right div2">
+                    <img src={projects[2].image} alt=""/>
+                </div>
+            </div>
             </div>
         </div>
     )
