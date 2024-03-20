@@ -7,11 +7,11 @@ export default function Projects(){
         <div className="container-projects">
             <span className="projects-title">Proyectos</span>
             <span className="projects-subtitle">Mis proyectos destacados</span>
-
+                <div>
                 {
                     projects.map((project, index) => {
                         return(
-                            <div>
+                                <div key={index}>
                                 {
                                     index % 2 === 0 ?
                                     <div className="project">
@@ -62,10 +62,11 @@ export default function Projects(){
                                         </div>
                                     </div>
                                 }
-                            </div>
+                                </div>
                         )
                     })
                 }
+                </div>
         </div>
     )
 }

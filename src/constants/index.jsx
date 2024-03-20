@@ -100,7 +100,7 @@ const projects = [
         name: "Resume ia",
         rol: "FullStack",
         image: resumeia,
-        tech: ["React", "TailwindCSS", "Docker", "Python", "Flask", "openai"],
+        tech: ["React", "TailwindCSS", "Docker", "Flask", "openai"],
         description: "Resume ia es una aplicación para resumir a texto un video de Youtube solo enviando el link y además permite copiar el resumen."
     },
     {
