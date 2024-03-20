@@ -14,6 +14,8 @@ import mssql from "./technologies/mssql.png"
 import resumeia from "./projects/resumeai.png"
 import smartcampus from "./projects/smartcampus.png"
 import backend from "./projects/backend.png"
+import appsmartcampus from "./projects/appsmartcampus.png"
+import registroautobuses from "./projects/registroautobuses.jpeg"
 
 import linkedin from "./social/linkedin.svg"
 import github from "./social/github.svg"
@@ -37,6 +39,8 @@ export {
     mssql,
     resumeia,
     smartcampus,
+    appsmartcampus,
+    registroautobuses,
     backend,
     linkedin,
     github,
