@@ -21,7 +21,7 @@ import linkedin from "./social/linkedin.svg"
 import github from "./social/github.svg"
 
 import ctic from "./company/ctic.png"
-
+import advance from "./company/advance.jpg"
 
 
 export {
@@ -45,4 +45,5 @@ export {
     linkedin,
     github,
     ctic,
+    advance
 }

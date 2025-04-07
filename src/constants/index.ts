@@ -19,9 +19,11 @@ import {
     linkedin,
     github,
     ctic,
+    advance
 } from "../assets"
+import { experence, links, project, soci, tech } from "../types"
 
-const navlinks = [
+const navlinks: links[] = [
     {
         name: "Inicio",
         link: "#inicio",
@@ -44,7 +46,7 @@ const navlinks = [
     }
 ]
 
-const technologies = [
+const technologies: tech[] = [
     {
         name: "Docker",
         icon: docker,
@@ -95,7 +97,7 @@ const technologies = [
     }
 ]
 
-const projects = [
+const projects: project[] = [
     {
         name: "Resume ia",
         rol: "FullStack",
@@ -133,12 +135,12 @@ const projects = [
     }
 ]
 
-const skills = ["React", "Tailwindcss", "Vite", "HTML", "CSS", 
-                "Node.js", "Express", "Docker", "MongoDB", "MySQL", 
-                "Firebase", "JavaScript", "TypeScript", 
+const skills: string [] = ["React/Vite", "Tailwindcss", "HTML", "CSS", 
+                "Node.js", "Express", "Docker", "Kubernetes", "DigitalOcean", "Argo CD", "PostgreSQL", "MySQL", "MongoDB", 
+                "Firebase", "Supabase", "JavaScript", "TypeScript", 
                 "Python", "Git", "Figma"]
 
-const social = [
+const social: soci [] = [
     {
         name: "linkedin",
         icon: linkedin,
@@ -151,11 +153,29 @@ const social = [
     }
 ]
 
-const company = [
+const experiences: experence[] = [
     {
-        name: "CTIC",
-        icon: ctic,
-    }
-]
+      rol: 'Programador Frontend',
+      empresa: 'CTIC',
+      fecha: 'Junio 2022 - Diciembre 2023',
+      icon: ctic,
+      tareas: [
+        'Lideré el desarrollo frontend de las páginas web, aplicando buenas prácticas de programación.',
+        'Integré eficientemente las páginas web con APIs, permitiendo la visualización de datos.',
+        'Trabajé en estrecha colaboración con equipos multidisciplinarios.',
+      ],
+    },
+    {
+      rol: 'Programador Full Stack',
+      empresa: 'Advance AIS',
+      fecha: 'Abril 2024 - Actualidad',
+      icon: advance,
+      tareas: [
+        'Diseño, implementación y despliegue de infraestructura en la nube para garantizar sistemas robustos, escalables y seguros.',
+        'Desarrollo interfaces frontend modernas y funcionales utilizando tecnologías innovadoras para mejorar la experiencia del usuario.',
+        'Responsable de diseñar, construir y optimizar APIs eficientes y seguras, permitiendo la integración fluida entre servicios y aplicaciones.',
+      ],
+    },
+];
 
-export { navlinks, technologies, projects, skills, social, company }
+export { navlinks, technologies, projects, skills, social, experiences }
